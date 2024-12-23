@@ -1,0 +1,71 @@
+ body{
+ 	background-color: beige;
+ 	margin: 0px;
+ 	padding: 0px;
+ 	font-family: 'open sans', sans-serif;
+ }
+
+ .wrapper {
+ 	width: 1000px;
+ 	margin: auto;
+ 	position: relative;
+ }
+
+ .logo {
+ 	font-size: 50px;
+ 	font-weight: 600px;
+ 	float: left;
+ 	font-family: courier;
+ 	color: black;
+ }
+
+ .menu {
+
+ }
+
+ nav {
+ 	width: 100%;
+ 	margin: auto;
+ 	display: flex;
+ 	line-height: 80px;
+ 	position: sticky;
+ 	position: -webkit sticky;
+ 	top: 0;
+ 	background: beige;
+ 	z-index: 1;
+ 	border-bottom: 1px solid blanchedalmond;
+ }
+
+ nav ul {
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ }
+
+ nav ul li {
+ 	float: left;
+ }
+
+ nav ul li a {
+ 	color: black;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	padding: 0px 16px 16px;
+ 	text-decoration: none;
+ }
+
+ nav ul li a :hover {
+ 	text-decoration: underline;
+ }
+
+ section {
+ 	margin: auto;
+ 	display: flex;
+ 	margin-bottom: 50px;
+ }
+
+ .kolom {
+ 	margin-top: 50PX;
+ 	margin-bottom: 50px;
+ }
